@@ -23,7 +23,7 @@ Steps for Data Preparation:
 import pandas as pd
 
 #Location of the csv file
-dataPath = "" #Path to dataset
+dataPath = '../IMDB Dataset.csv'
 
 #Load the data
 df = pd.read_csv(dataPath)
